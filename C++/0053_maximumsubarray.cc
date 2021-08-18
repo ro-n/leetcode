@@ -1,10 +1,12 @@
 // 2020-08-08 23:54:28
 
 #include <limits>
+#include <vector>
+
 
 class Solution {
 public:
-    int maxSubArray(vector<int>& nums) {
+    int maxSubArray(std::vector<int>& nums) {
         int cur = 0;
         int max_ = std::numeric_limits<int>::min();
 

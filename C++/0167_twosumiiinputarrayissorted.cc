@@ -1,6 +1,6 @@
 // 2020-08-04 01:30:00
 
-#include <vector>
+#include <bits/stdc++.h>
 
 using std::vector;
 
